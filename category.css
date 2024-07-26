@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation */
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.nav .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav .nav-items .nav-link {
+    margin-right: 20px;
+}
+.nav .nav-items .nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Category Page Styles */
+.category-title {
+    background: url('../images/category-bg.jpg') no-repeat center center/cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.category-title h1 {
+    font-size: 3rem black;
+    margin: 0;
+}
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.category-item {
+    margin: 20px;
+    flex: 1 1 300px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.category-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.category-item h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.category-item p {
+    padding: 0 10px 10px 10px;
+}
+.category-item:hover {
+    transform: scale(1.05);
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .container div {
+    flex: 1;
+    padding: 20px;
+}
+.footer .rights {
+    text-align: center;
+    padding: 10px 0;
+}
+.footer .move-up {
+    text-align: center;
+    cursor: pointer;
+}
+.footer .move-up span {
+    color: #fff;
+}

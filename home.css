@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation */
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.nav .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav .nav-items .nav-link {
+    margin-right: 20px;
+}
+.nav .nav-items .nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Home Page Styles */
+.site-title {
+    background: url('../images/home-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.site-title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.site-title button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+}
+/* Category Page Styles */
+.category-page {
+    padding: 20px;
+}
+.category-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+/* Archive Page Styles */
+.archive-page {
+    padding: 20px;
+}
+.archive-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+/* Contact Page Styles */
+.contact-page {
+    padding: 20px;
+}
+.contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-page form input,
+.contact-page form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.contact-page form button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
